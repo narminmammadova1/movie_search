@@ -34,7 +34,7 @@ const getMovies = async () => {
   }
 };
 
-// Search button click event
+
 searchButton.addEventListener("click", () => {
   const searchTerm = searchInput.value;
   getMovies(searchTerm);
